@@ -1,0 +1,91 @@
+html, body {
+    font-family: sans-serif;
+    margin: 0 auto;
+	padding: 0;
+	border: 0;
+    background-color: #A5A9B3;
+}
+
+.topnav {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    background-color: #74112F;
+}
+
+.topnav .logo {
+    flex: 1;
+    margin: 0 50px 0 50px;
+    height: 50px;
+    color: #A5A9B3;
+    filter: invert(70%);
+}
+
+.aboutserv {
+    margin: 10px 100px 10px 100px;  
+}
+
+.aboutserv a {
+    padding: 10px 50px;
+    color: #A5A9B3;
+}
+
+.title {
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.title .logo {
+    height: 450px;
+    padding: 0 50px;
+}
+
+.logotitle {
+    padding: 0 50px;
+}
+
+h2 {
+    text-align: center;
+    color: #A5A9B3;
+    padding: 5px;
+    background-color: #3B4754;
+}
+
+.description {
+    display: flex;
+    text-align: center;
+}
+
+.description p {
+    padding: 100px;
+}
+
+.description .workingout {
+    padding: 0 50px;
+}
+
+.services li{
+    display: flex;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.services span{
+    padding: 0 30px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #B0B7C0;
+}
+
+footer a {
+    padding: 0 10px;
+    font-size: 20px;
+    color: #74112F;
+}
+
