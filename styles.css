@@ -4,13 +4,14 @@ html, body {
 	padding: 0;
 	border: 0;
     background-color: #A5A9B3;
+    font-size: small;
 }
 
 .topnav {
     display: flex;
     justify-content: space-between;
     height: 50px;
-    background-color: #74112F;
+    background-color: #FFFFFF;
 }
 
 .topnav .logo {
@@ -22,12 +23,17 @@ html, body {
 }
 
 .aboutserv {
-    margin: 10px 100px 10px 100px;  
+    margin: 20px 100px 10px 100px;
 }
 
 .aboutserv a {
-    padding: 10px 50px;
-    color: #A5A9B3;
+    padding: 10px 20px;
+    color: #495057;
+    text-decoration: none;
+}
+
+.aboutserv a:hover {
+    color: #ff6479;
 }
 
 .title {
