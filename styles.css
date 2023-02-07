@@ -7,11 +7,16 @@ html, body {
     font-size: small;
 }
 
+header {
+    background-color: #ffff;
+}
+
 .topnav {
     display: flex;
     justify-content: space-between;
     height: 50px;
-    background-color: #FFFFFF;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .topnav .logo {
