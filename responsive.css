@@ -8,7 +8,8 @@
 
     .aboutserv {
         text-align: center;
-        margin: 10px;
+        margin: 25px;
+        font-size: medium;
     }
 
     .aboutserv a {
@@ -18,6 +19,11 @@
     div.title { 
         flex-direction: column;
         text-align: center;
+    }
+
+    .title .logo {
+        height: 330px;
+        padding: 0 50px;
     }
 
     div.description {

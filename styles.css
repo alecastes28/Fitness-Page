@@ -4,30 +4,46 @@ html, body {
 	padding: 0;
 	border: 0;
     background-color: #A5A9B3;
+    font-size: small;
+}
+
+header {
+    background-color: #ffff;
 }
 
 .topnav {
     display: flex;
     justify-content: space-between;
-    height: 50px;
-    background-color: #74112F;
+    height: 70px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.topnav a {
+    display: flex;
+    align-items: center;
 }
 
 .topnav .logo {
-    flex: 1;
-    margin: 0 50px 0 50px;
+    display: block;
     height: 50px;
     color: #A5A9B3;
     filter: invert(70%);
 }
 
 .aboutserv {
-    margin: 10px 100px 10px 100px;  
+    display: flex;
+    align-items: center;
 }
 
 .aboutserv a {
-    padding: 10px 50px;
-    color: #A5A9B3;
+    padding: 10px 20px;
+    color: #495057;
+    text-decoration: none;
+}
+
+.aboutserv a:hover {
+    color: #ff6479;
 }
 
 .title {
