@@ -21,6 +21,11 @@
         text-align: center;
     }
 
+    .title .logo {
+        height: 330px;
+        padding: 0 50px;
+    }
+
     div.description {
         flex-direction: column;
         text-align: center;
