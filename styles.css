@@ -19,16 +19,21 @@ header {
     margin: auto;
 }
 
+.topnav a {
+    display: flex;
+    align-items: center;
+}
+
 .topnav .logo {
-    flex: 1;
-    margin: 10px 50px;
+    display: block;
     height: 50px;
     color: #A5A9B3;
     filter: invert(70%);
 }
 
 .aboutserv {
-    margin: 20px 100px 10px 100px;
+    display: flex;
+    align-items: center;
 }
 
 .aboutserv a {
